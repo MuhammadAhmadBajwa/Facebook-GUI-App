@@ -1,0 +1,62 @@
+  Project1.MyForm1.resources - Embedded, ContainedInManifestFile, 
+  Project1.MyForm2.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Project1, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Project1.MyForm2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(app*, user*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    user* CurrentUser : Public
+    app* AppObj : Public
+  Methods:
+    SystemStringToChar(String): PrivateScope, Public, HideBySig
+    ConvertMonthToChar(Int32): PrivateScope, Public, HideBySig
+    HideAllPostPanels(): PrivateScope, Public, HideBySig
+    HideAllLikeBy(): PrivateScope, Public, HideBySig
+    HideAllFriends(): PrivateScope, Public, HideBySig
+    HideAllLikedPages(): PrivateScope, Public, HideBySig
+    HideAllComments(): PrivateScope, Public, HideBySig
+    OutputFriendsData(user*** IsImplicitlyDereferenced, Int32* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    OutputLikedPagesData(page*** IsImplicitlyDereferenced, Int32* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    AddToLabel(String* IsImplicitlyDereferenced, basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, Label): PrivateScope, Public, HideBySig
+    AddTolabel(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, Label): PrivateScope, Public, HideBySig
+    UpdatePosts(String* IsImplicitlyDereferenced, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced, SByte*, Int32, Int32, Int32, SByte*, SByte*, Int32, Int32, Label, Label, Label, Label, Label, Label, Panel, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    UpdateComments(comments** IsImplicitlyDereferenced, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced, String, Label, Label): PrivateScope, Public, HideBySig
+    AddCommentsToPanel(post*): PrivateScope, Public, HideBySig
+    OutputAllPosts(post*** IsImplicitlyDereferenced, Int32, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    OutputTimeline(user*): PrivateScope, Public, HideBySig
+    OutputPostTimeline(page*): PrivateScope, Public, HideBySig
+    OutputHomePage(user**, Int32, page**, Int32): PrivateScope, Public, HideBySig
+    ShowCommentPanel(Label): PrivateScope, Public, HideBySig
+    AddNewComment(Label, TextBox, Label, Label, Label): PrivateScope, Public, HideBySig
+    AddLike(Label, Label): PrivateScope, Public, HideBySig
+    SearchAndShowFriendsTimeline(Label): PrivateScope, Public, HideBySig
+    SearchAndShowLikedPagesTimeline(Label): PrivateScope, Public, HideBySig
+    SEARCH(String): PrivateScope, Public, HideBySig
+    ShowSearchedData(String): PrivateScope, Public, HideBySig
+    ViewLikedBy(String): PrivateScope, Public, HideBySig
+    startProgram(): PrivateScope, Public, HideBySig
+Class Project1.MyForm1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    app* AppObj : Public
+    user* CurrentUser : Public
+  Methods:
+    getCurrentUser(): PrivateScope, Public, HideBySig
