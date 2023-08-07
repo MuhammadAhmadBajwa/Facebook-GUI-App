@@ -1,2 +1,2 @@
 # Facebook-GUI-App
-GUI Facebook Application using OOP conepts and .NetFramework
+GUI Facebook Application using OOP concepts and .NetFramework
